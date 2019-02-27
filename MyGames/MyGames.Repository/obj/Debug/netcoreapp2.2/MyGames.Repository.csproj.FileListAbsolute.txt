@@ -1,0 +1,14 @@
+C:\Git_Projects\MyGames\MyGames.Repository\bin\Debug\netcoreapp2.2\MyGames.Repository.deps.json
+C:\Git_Projects\MyGames\MyGames.Repository\bin\Debug\netcoreapp2.2\MyGames.Repository.dll
+C:\Git_Projects\MyGames\MyGames.Repository\obj\Debug\netcoreapp2.2\MyGames.Repository.csprojAssemblyReference.cache
+C:\Git_Projects\MyGames\MyGames.Repository\obj\Debug\netcoreapp2.2\MyGames.Repository.csproj.CoreCompileInputs.cache
+C:\Git_Projects\MyGames\MyGames.Repository\obj\Debug\netcoreapp2.2\MyGames.Repository.AssemblyInfoInputs.cache
+C:\Git_Projects\MyGames\MyGames.Repository\obj\Debug\netcoreapp2.2\MyGames.Repository.AssemblyInfo.cs
+C:\Git_Projects\MyGames\MyGames.Repository\bin\Debug\netcoreapp2.2\MyGames.Repository.runtimeconfig.json
+C:\Git_Projects\MyGames\MyGames.Repository\bin\Debug\netcoreapp2.2\MyGames.Repository.runtimeconfig.dev.json
+C:\Git_Projects\MyGames\MyGames.Repository\bin\Debug\netcoreapp2.2\MyGames.Repository.pdb
+C:\Git_Projects\MyGames\MyGames.Repository\bin\Debug\netcoreapp2.2\MyGames.Entities.dll
+C:\Git_Projects\MyGames\MyGames.Repository\bin\Debug\netcoreapp2.2\MyGames.Entities.pdb
+C:\Git_Projects\MyGames\MyGames.Repository\obj\Debug\netcoreapp2.2\MyGames.Repository.csproj.CopyComplete
+C:\Git_Projects\MyGames\MyGames.Repository\obj\Debug\netcoreapp2.2\MyGames.Repository.dll
+C:\Git_Projects\MyGames\MyGames.Repository\obj\Debug\netcoreapp2.2\MyGames.Repository.pdb
