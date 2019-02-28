@@ -5,9 +5,13 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MyGames.API.Profiles;
+using MyGames.Repository.Context;
+using MyGames.Repository.Contracts;
+using MyGames.Repository.Persistence;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace MyGames.API
@@ -25,18 +29,21 @@ namespace MyGames.API
         public void ConfigureServices(IServiceCollection services)
         {
             //mapear a injeção de dependencia..
-            //services.AddTransient<ISetorRepository, SetorRepository>();
-            //services.AddTransient<IFuncionarioRepository, FuncionarioRepository>();
+            services.AddTransient<IPerfilRepository, PerfilRepository>();
+            services.AddTransient<IUsuarioRepository, UsuarioRepository>();
+            services.AddTransient<IStatusRepository, StatusRepository>();
+            services.AddTransient<IPlataformaRepository, PlataformaRepository>();
+            services.AddTransient<IGameRepository, GameRepository>();
 
             //registrando o AutoMapper..
             AutoMapperConfig.Register();
 
-            /*services.AddDbContext<DataContext>(
-                    options => options
-                        .UseSqlServer(Configuration.GetConnectionString("Aula"))
-                );*/
-
             services.AddMvc();
+
+            services.AddDbContext<DataContext>(
+                    options => options
+                        .UseSqlServer(Configuration.GetConnectionString("Game"))
+                );
 
             //configuração do swagger..
             services.AddSwaggerGen(

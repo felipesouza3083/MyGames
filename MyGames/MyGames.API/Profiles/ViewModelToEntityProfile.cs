@@ -1,4 +1,6 @@
 ﻿using AutoMapper;
+using MyGames.API.Models.Plataforma;
+using MyGames.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +12,7 @@ namespace MyGames.API.Profiles
     {
         public ViewModelToEntityProfile()
         {
-
+            CreateMap<PlataformaCadastroViewModel, Plataforma>();
         }
     }
 }

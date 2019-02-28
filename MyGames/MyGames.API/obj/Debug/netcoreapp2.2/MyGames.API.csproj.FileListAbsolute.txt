@@ -17,3 +17,4 @@ C:\Git_Projects\MyGames\MyGames.API\obj\Debug\netcoreapp2.2\MyGames.API.RazorTar
 C:\Git_Projects\MyGames\MyGames.API\obj\Debug\netcoreapp2.2\MyGames.API.csproj.CopyComplete
 C:\Git_Projects\MyGames\MyGames.API\obj\Debug\netcoreapp2.2\MyGames.API.dll
 C:\Git_Projects\MyGames\MyGames.API\obj\Debug\netcoreapp2.2\MyGames.API.pdb
+C:\Git_Projects\MyGames\MyGames.API\bin\Debug\netcoreapp2.2\appsettings.json

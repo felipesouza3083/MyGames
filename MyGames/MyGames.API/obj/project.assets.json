@@ -4872,6 +4872,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.2.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.2.2",
+          "Microsoft.Extensions.Configuration.Json": "2.2.0",
           "MyGames.Entities": "1.0.0"
         },
         "compile": {

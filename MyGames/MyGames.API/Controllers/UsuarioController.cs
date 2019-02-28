@@ -8,17 +8,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MyGames.API.Controllers
 {
-    [Route("mygameapi/games")]
+    [Route("mygameapi/usuario")]
     [EnableCors("DefaultPolicy")]
     [Produces("application/json")]
     [ApiController]
-    public class GameController : ControllerBase
+    public class UsuarioController : ControllerBase
     {
-        [HttpGet]
-        [Route("listargames")]
-        public IActionResult Get()
-        {
-            return Ok("consulta ok");
-        }
     }
 }
