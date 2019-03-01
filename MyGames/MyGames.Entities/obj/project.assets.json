@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git_Projects\\MyGames\\MyGames.Entities\\MyGames.Entities.csproj",
+      "projectUniqueName": "C:\\Git_Projects\\MyGames\\MyGames\\MyGames.Entities\\MyGames.Entities.csproj",
       "projectName": "MyGames.Entities",
-      "projectPath": "C:\\Git_Projects\\MyGames\\MyGames.Entities\\MyGames.Entities.csproj",
+      "projectPath": "C:\\Git_Projects\\MyGames\\MyGames\\MyGames.Entities\\MyGames.Entities.csproj",
       "packagesPath": "C:\\Users\\felipe.souza\\.nuget\\packages\\",
-      "outputPath": "C:\\Git_Projects\\MyGames\\MyGames.Entities\\obj\\",
+      "outputPath": "C:\\Git_Projects\\MyGames\\MyGames\\MyGames.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -1,5 +1,7 @@
 ﻿using AutoMapper;
+using MyGames.API.Models.Perfil;
 using MyGames.API.Models.Plataforma;
+using MyGames.API.Models.Status;
 using MyGames.Entities;
 using System;
 using System.Collections.Generic;
@@ -14,6 +16,12 @@ namespace MyGames.API.Profiles
         {
             CreateMap<PlataformaCadastroViewModel, Plataforma>();
             CreateMap<PlataformaAtualizacaoViewModel, Plataforma>();
+
+            CreateMap<StatusCadastroViewModel, Status>();
+            CreateMap<StatusAtualizacaoViewModel, Status>();
+
+            CreateMap<PerfilCadastroViewModel, Perfil>();
+            CreateMap<PerfilAtualizacaoViewModel, Perfil>();
         }
     }
 }

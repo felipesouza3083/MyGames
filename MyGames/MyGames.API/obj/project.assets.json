@@ -13311,11 +13311,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git_Projects\\MyGames\\MyGames.API\\MyGames.API.csproj",
+      "projectUniqueName": "C:\\Git_Projects\\MyGames\\MyGames\\MyGames.API\\MyGames.API.csproj",
       "projectName": "MyGames.API",
-      "projectPath": "C:\\Git_Projects\\MyGames\\MyGames.API\\MyGames.API.csproj",
+      "projectPath": "C:\\Git_Projects\\MyGames\\MyGames\\MyGames.API\\MyGames.API.csproj",
       "packagesPath": "C:\\Users\\felipe.souza\\.nuget\\packages\\",
-      "outputPath": "C:\\Git_Projects\\MyGames\\MyGames.API\\obj\\",
+      "outputPath": "C:\\Git_Projects\\MyGames\\MyGames\\MyGames.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13334,11 +13334,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Git_Projects\\MyGames\\MyGames.Entities\\MyGames.Entities.csproj": {
-              "projectPath": "C:\\Git_Projects\\MyGames\\MyGames.Entities\\MyGames.Entities.csproj"
+            "C:\\Git_Projects\\MyGames\\MyGames\\MyGames.Entities\\MyGames.Entities.csproj": {
+              "projectPath": "C:\\Git_Projects\\MyGames\\MyGames\\MyGames.Entities\\MyGames.Entities.csproj"
             },
-            "C:\\Git_Projects\\MyGames\\MyGames.Repository\\MyGames.Repository.csproj": {
-              "projectPath": "C:\\Git_Projects\\MyGames\\MyGames.Repository\\MyGames.Repository.csproj"
+            "C:\\Git_Projects\\MyGames\\MyGames\\MyGames.Repository\\MyGames.Repository.csproj": {
+              "projectPath": "C:\\Git_Projects\\MyGames\\MyGames\\MyGames.Repository\\MyGames.Repository.csproj"
             }
           }
         }

@@ -22,8 +22,6 @@
   <ItemGroup>
     <Folder Include="Models\Game\" />
     <Folder Include="Models\Usuario\" />
-    <Folder Include="Models\Perfil\" />
-    <Folder Include="Models\Status\" />
   </ItemGroup>
 
   <ItemGroup>
