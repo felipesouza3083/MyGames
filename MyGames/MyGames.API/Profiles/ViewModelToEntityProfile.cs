@@ -13,6 +13,7 @@ namespace MyGames.API.Profiles
         public ViewModelToEntityProfile()
         {
             CreateMap<PlataformaCadastroViewModel, Plataforma>();
+            CreateMap<PlataformaAtualizacaoViewModel, Plataforma>();
         }
     }
 }
