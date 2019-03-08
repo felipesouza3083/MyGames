@@ -1,8 +1,10 @@
-﻿using MyGames.Entities;
+﻿using Microsoft.EntityFrameworkCore;
+using MyGames.Entities;
 using MyGames.Repository.Context;
 using MyGames.Repository.Contracts;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace MyGames.Repository.Persistence
@@ -15,6 +17,22 @@ namespace MyGames.Repository.Persistence
             : base(context)
         {
             this.context = context;
+        }
+
+        public override List<Game> FindAll()
+        {
+            return context.Game
+                          .Include(g => g.Plataforma)
+                          .Include(g => g.Status)
+                          .ToList();
+        }
+
+        public override Game FindById(int id)
+        {
+            return context.Game
+                          .Include(g => g.Plataforma)
+                          .Include(g => g.Status)
+                          .FirstOrDefault();
         }
     }
 }

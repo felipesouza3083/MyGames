@@ -20,30 +20,30 @@ namespace MyGames.Repository.Persistence
             this.context = context;
         }
 
-        public void Insert(T obj)
+        public virtual void Insert(T obj)
         {
             context.Entry(obj).State = EntityState.Added;
             context.SaveChanges();
         }
 
-        public void Update(T obj)
+        public virtual void Update(T obj)
         {
             context.Entry(obj).State = EntityState.Modified;
             context.SaveChanges();
         }
 
-        public void Delete(T obj)
+        public virtual void Delete(T obj)
         {
             context.Entry(obj).State = EntityState.Deleted;
             context.SaveChanges();
         }
 
-        public List<T> FindAll()
+        public virtual List<T> FindAll()
         {
             return context.Set<T>().ToList();
         }
 
-        public T FindById(int id)
+        public virtual T FindById(int id)
         {
             return context.Set<T>().Find(id);
         }

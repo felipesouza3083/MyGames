@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using MyGames.API.Models.Game;
 using MyGames.API.Models.Perfil;
 using MyGames.API.Models.Plataforma;
 using MyGames.API.Models.Status;
@@ -19,6 +20,10 @@ namespace MyGames.API.Profiles
             CreateMap<Status, StatusConsultaViewModel>();
 
             CreateMap<Perfil, PerfilConsultaViewModel>();
+
+            CreateMap<Game, GameConsultaViewModel>()
+                .AfterMap((src, dest) => dest.NomePlataforma = src.Plataforma.Nome)
+                .AfterMap((src, dest) => dest.DescricaoStatus = src.Status.Descricao);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using MyGames.API.Models.Game;
 using MyGames.API.Models.Perfil;
 using MyGames.API.Models.Plataforma;
 using MyGames.API.Models.Status;
@@ -22,6 +23,9 @@ namespace MyGames.API.Profiles
 
             CreateMap<PerfilCadastroViewModel, Perfil>();
             CreateMap<PerfilAtualizacaoViewModel, Perfil>();
+
+            CreateMap<GameCadastroViewModel, Game>();
+            CreateMap<GameAtualizacaoViewModel, Game>();
         }
     }
 }
