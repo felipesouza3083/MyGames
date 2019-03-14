@@ -78,6 +78,8 @@ namespace MyGames.API
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseAuthentication();
+
             app.UseMvc();
 
             app.UseSwagger();

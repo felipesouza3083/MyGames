@@ -3,6 +3,7 @@ using MyGames.API.Models.Game;
 using MyGames.API.Models.Perfil;
 using MyGames.API.Models.Plataforma;
 using MyGames.API.Models.Status;
+using MyGames.API.Models.Usuario;
 using MyGames.Entities;
 using System;
 using System.Collections.Generic;
@@ -26,6 +27,9 @@ namespace MyGames.API.Profiles
 
             CreateMap<GameCadastroViewModel, Game>();
             CreateMap<GameAtualizacaoViewModel, Game>();
+
+            CreateMap<UsuarioCadastroViewModel, Usuario>();
+            CreateMap<UsuarioAutenticadoViewModel, Usuario>();
         }
     }
 }
