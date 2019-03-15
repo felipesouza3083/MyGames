@@ -7,6 +7,7 @@ using MyGames.API.Models.Game;
 using MyGames.API.Models.Perfil;
 using MyGames.API.Models.Plataforma;
 using MyGames.API.Models.Status;
+using MyGames.API.Models.Usuario;
 using MyGames.Entities;
 
 namespace MyGames.API.Profiles
@@ -24,6 +25,9 @@ namespace MyGames.API.Profiles
             CreateMap<Game, GameConsultaViewModel>()
                 .AfterMap((src, dest) => dest.NomePlataforma = src.Plataforma.Nome)
                 .AfterMap((src, dest) => dest.DescricaoStatus = src.Status.Descricao);
+
+            CreateMap<Usuario, UsuarioAutenticadoViewModel>()
+                .AfterMap((src, dest) => dest.NomePerfil = src.Perfil.Nome);
         }
     }
 }
