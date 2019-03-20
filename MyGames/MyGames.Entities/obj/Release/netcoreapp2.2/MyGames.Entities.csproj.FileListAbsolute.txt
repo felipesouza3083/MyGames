@@ -1,0 +1,9 @@
+C:\Git_Projects\MyGames\MyGames\MyGames.Entities\bin\Release\netcoreapp2.2\MyGames.Entities.deps.json
+C:\Git_Projects\MyGames\MyGames\MyGames.Entities\bin\Release\netcoreapp2.2\MyGames.Entities.dll
+C:\Git_Projects\MyGames\MyGames\MyGames.Entities\bin\Release\netcoreapp2.2\MyGames.Entities.pdb
+C:\Git_Projects\MyGames\MyGames\MyGames.Entities\obj\Release\netcoreapp2.2\MyGames.Entities.csprojAssemblyReference.cache
+C:\Git_Projects\MyGames\MyGames\MyGames.Entities\obj\Release\netcoreapp2.2\MyGames.Entities.csproj.CoreCompileInputs.cache
+C:\Git_Projects\MyGames\MyGames\MyGames.Entities\obj\Release\netcoreapp2.2\MyGames.Entities.AssemblyInfoInputs.cache
+C:\Git_Projects\MyGames\MyGames\MyGames.Entities\obj\Release\netcoreapp2.2\MyGames.Entities.AssemblyInfo.cs
+C:\Git_Projects\MyGames\MyGames\MyGames.Entities\obj\Release\netcoreapp2.2\MyGames.Entities.dll
+C:\Git_Projects\MyGames\MyGames\MyGames.Entities\obj\Release\netcoreapp2.2\MyGames.Entities.pdb
